@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Menus from "./Menus";
 import Contact from "./Contact";
+import Team from "./Team";
  
 class Main extends Component {
   render() {
@@ -17,6 +18,7 @@ class Main extends Component {
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/menus">Menu</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink to="/team">Team</NavLink></li>
               </ul>
             </div>
           </div>
@@ -26,6 +28,7 @@ class Main extends Component {
           <Route path="/about" component={About}/>
           <Route path="/menus" component={Menus}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/team" component={Team}/>
         </div>
         <div className="footer text-center py-3">
           <p className="copyright m-0"><a href="https://www.linkedin.com/in/ansori-riza-yogi-saputro-655004137/">AnsoriRiza © 2019</a></p>

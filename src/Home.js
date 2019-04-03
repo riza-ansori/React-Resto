@@ -105,13 +105,13 @@ Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem</p>
           <div className="container">
             <div className="bg-black d-flex justify-content-center col-md-6 col-10 mx-auto">
               <div className="border-dotted">
-                <h2 class="book-title mb-4">Open</h2>
-                <p class="text-grey mb-2">Monday - Friday</p>
-                <p class="text-white">08.00 Am / 10.00 Pm</p>
-                <p class="text-grey mb-2">Saturday - Sunday</p>
-                <p class="text-white">08.00 Am / 12.00 Pm</p>
-                <hr class="line-grey my-3"></hr>
-                <p class="text-grey mb-0">(0298) 565567</p>
+                <h2 className="book-title mb-4">Open</h2>
+                <p className="text-grey mb-2">Monday - Friday</p>
+                <p className="text-white">08.00 Am / 10.00 Pm</p>
+                <p className="text-grey mb-2">Saturday - Sunday</p>
+                <p className="text-white">08.00 Am / 12.00 Pm</p>
+                <hr className="line-grey my-3"></hr>
+                <p className="text-grey mb-0">(0298) 565567</p>
               </div>
             </div>
           </div>
